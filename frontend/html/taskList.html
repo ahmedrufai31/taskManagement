@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/taskList.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="section-one">
+      <header>
+        <h1>to-do list</h1>
+        <!-- <img src="../images/sketch-book.png" alt="" width="55px" /> -->
+        <div class="search-bar" id="search-task">
+          <img
+            src="../images/search_FILL0_wght400_GRAD0_opsz48 (1).svg"
+            alt=""
+            class="search-icon"
+          />
+
+          <input type="text" id="search" placeholder="Search" />
+        </div>
+
+        <div class="dropdown">
+          <img
+            src="../images/man.png"
+            alt=""
+            class="avatar-icon"
+            id="dropdown-icon"
+          />
+          <div class="dropdown-content" id="dropdown-display">
+            <div class="home-display">
+              <img src="../images/home.png" alt="" class="home-icon" />
+              <a href="index.html">Home</a>
+            </div>
+            <div class="user-display">
+              <img src="../images/user.png" alt="" class="user-icon" />
+              <a href="profile.html">Profile</a>
+            </div>
+            <div class="logout-display">
+              <img src="../images/logout.png" alt="" class="logout-icon" />
+              <a href="login.html">Logout</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div>
+        <form id="new-task" class="frm">
+          <input
+            type="text"
+            id="task-input"
+            placeholder="what do u have planed ?"
+          />
+          <input type="submit" id="submit-task" value="+ New task" />
+        </form>
+      </div>
+    </div>
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+          <!-- <div class="task">
+            <div class="content">
+              <img
+                src="../images/oval.png"
+                class="circle"
+                alt=""
+              />
+              <input
+                type="text"
+                class="text checked"
+                value="design work"
+                readonly
+              />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <script src="../js/taskList.js"></script>
+  </body>
+</html>

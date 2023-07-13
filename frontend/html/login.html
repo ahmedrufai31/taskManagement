@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="section-one">
+      <div class="nav">
+        <header>
+          <h1>TaskPlanner</h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <!-- <li><a href="features.html">Features</a></li> -->
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html"><button class="btn">login</button></a></li>
+              <!-- <li><a href="signup.html">sign up</a></li> -->
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="login-page">
+        <p class="old-acc">Log into my account</p>
+        <div class="media-options">
+          <a href="#" class="google">
+            <img src="../images/google.png" alt="" class="google-img" />
+            <span>Login in with Google</span>
+          </a>
+        </div>
+        <div class="line"></div>
+        <form id="login-form" class="frm">
+          <div>
+            <input
+              type=" text"
+              id="gmail"
+              class="field"
+              placeholder=" Username"
+               required 
+            />
+          </div>
+          <div class="password-container">
+            <input
+              type="password"
+              id="password"
+              class="field"
+              placeholder="password"
+              required
+            />
+        <img src="../images/view.png" class="eye-icon" id="eyeicon">
+          </div>
+          <div class="form-link">
+            <a href="#" class="forgot-pass">Forgot password?</a>
+          </div>
+          <button  id="login">login</button>
+          <p class="no-account">
+            Don't have an account? <a href="signup.html">signup</a>
+          </p>
+        </form>
+      </div>
+    </div>
+<script src="../js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant+Upright:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+  /* transition: all .2s linear; */
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* background: #000000;/ */
+  /* /* max-width: 100vw; */
+  /* min-height: 100vh; */
+}
+.section-one {
+  background: url(../images/abstract-textured-backgound.jpg);
+  /* background-size: contain; */
+  /* background-color: rgba(8, 3, 3, 0.72); */
+  min-height: 100vh;
+}
+.nav {
+  /* background: #000000; */
+  /* min-height: 100vh; */
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* width:100px; */
+  gap: 500px;
+  height: 100px;
+  margin: 0;
+  padding: 0px 0px;
+}
+header h1 {
+  color: gray;
+  padding: 10px 10px;
+  /* color: li; */
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-decoration: none; */
+  list-style: none;
+  gap: 30px;
+  padding: 15px 40px;
+}
+nav a {
+  width: 48px;
+  height: 28px;
+  font-size: 16px;
+  /* text-decoration: none; */
+  color: #ffffff;
+}
+nav a:hover {
+  border-bottom: 4px solid #ff0000;
+  padding-bottom: 3px;
+}
+.btn{
+  /* color: #007bff; */
+  font-size: 18px;
+  font-weight: 400;
+  width: 100px;
+  height: 50px;
+  color: #fff; 
+  background: #ff0000;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+  
+}
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+  /* height: 100vh; */
+}
+
+.phone {
+  width: 400px;
+}
+
+.homecontent-right {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* gap: 10px; */
+}
+.list {
+  color: #ff0000;
+  font-size: 23px;
+  text-align: start;
+  text-transform: capitalize;
+}
+.work {
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 65px;
+  text-transform: capitalize;
+}
+.para {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  width: 150px;
+  height: 50px;
+  color: #fff; 
+  background: #ff0000;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+  /* margin-top: 20px; */
+}
+button:hover {
+  background-color: #ae0a0a;
+  /* opacity: 0.9; */
+}
+button:active{
+  /* opacity: 0.6; */
+}
+
+.container{
+  max-width: 1170px;
+  /* background-color: red; */
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 40px 0px;
+}
+.footer-col{
+  width: 25%;
+  padding: 0px 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+position: relative;
+}
+.footer-col h4::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  /* box-sizing: border-box; */
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #fff;
+  padding-left: 10px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 225,0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5 ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+.copy{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #bbbbbb;
+}
